@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5431DE118EAA86A0019E61E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5431DE018EAA86A0019E61E /* Foundation.framework */; };
+		C5431DE318EAA86A0019E61E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5431DE218EAA86A0019E61E /* CoreGraphics.framework */; };
+		C5431DE518EAA86A0019E61E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5431DE418EAA86A0019E61E /* UIKit.framework */; };
+		C5431DE718EAA86A0019E61E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5431DE618EAA86A0019E61E /* CoreData.framework */; };
+		C5431DED18EAA86A0019E61E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5431DEB18EAA86A0019E61E /* InfoPlist.strings */; };
+		C5431DEF18EAA86A0019E61E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5431DEE18EAA86A0019E61E /* main.m */; };
+		C5431DF318EAA86A0019E61E /* SkipStepAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5431DF218EAA86A0019E61E /* SkipStepAppDelegate.m */; };
+		C5431DF618EAA86A0019E61E /* SkipStep.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C5431DF418EAA86A0019E61E /* SkipStep.xcdatamodeld */; };
+		C5431DF818EAA86A0019E61E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5431DF718EAA86A0019E61E /* Images.xcassets */; };
+		C5431DFF18EAA86A0019E61E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5431DFE18EAA86A0019E61E /* XCTest.framework */; };
+		C5431E0018EAA86A0019E61E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5431DE018EAA86A0019E61E /* Foundation.framework */; };
+		C5431E0118EAA86A0019E61E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5431DE418EAA86A0019E61E /* UIKit.framework */; };
+		C5431E0218EAA86A0019E61E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5431DE618EAA86A0019E61E /* CoreData.framework */; };
+		C5431E0A18EAA86A0019E61E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5431E0818EAA86A0019E61E /* InfoPlist.strings */; };
+		C5431E0C18EAA86A0019E61E /* SkipStepTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5431E0B18EAA86A0019E61E /* SkipStepTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5431E0318EAA86A0019E61E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5431DD518EAA86A0019E61E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5431DDC18EAA86A0019E61E;
+			remoteInfo = SkipStep;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5431DDD18EAA86A0019E61E /* SkipStep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkipStep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5431DE018EAA86A0019E61E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C5431DE218EAA86A0019E61E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C5431DE418EAA86A0019E61E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C5431DE618EAA86A0019E61E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C5431DEA18EAA86A0019E61E /* SkipStep-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SkipStep-Info.plist"; sourceTree = "<group>"; };
+		C5431DEC18EAA86A0019E61E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C5431DEE18EAA86A0019E61E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5431DF018EAA86A0019E61E /* SkipStep-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SkipStep-Prefix.pch"; sourceTree = "<group>"; };
+		C5431DF118EAA86A0019E61E /* SkipStepAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkipStepAppDelegate.h; sourceTree = "<group>"; };
+		C5431DF218EAA86A0019E61E /* SkipStepAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkipStepAppDelegate.m; sourceTree = "<group>"; };
+		C5431DF518EAA86A0019E61E /* SkipStep.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SkipStep.xcdatamodel; sourceTree = "<group>"; };
+		C5431DF718EAA86A0019E61E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C5431DFD18EAA86A0019E61E /* SkipStepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkipStepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5431DFE18EAA86A0019E61E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C5431E0718EAA86A0019E61E /* SkipStepTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SkipStepTests-Info.plist"; sourceTree = "<group>"; };
+		C5431E0918EAA86A0019E61E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C5431E0B18EAA86A0019E61E /* SkipStepTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkipStepTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5431DDA18EAA86A0019E61E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5431DE318EAA86A0019E61E /* CoreGraphics.framework in Frameworks */,
+				C5431DE718EAA86A0019E61E /* CoreData.framework in Frameworks */,
+				C5431DE518EAA86A0019E61E /* UIKit.framework in Frameworks */,
+				C5431DE118EAA86A0019E61E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5431DFA18EAA86A0019E61E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5431DFF18EAA86A0019E61E /* XCTest.framework in Frameworks */,
+				C5431E0218EAA86A0019E61E /* CoreData.framework in Frameworks */,
+				C5431E0118EAA86A0019E61E /* UIKit.framework in Frameworks */,
+				C5431E0018EAA86A0019E61E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5431DD418EAA86A0019E61E = {
+			isa = PBXGroup;
+			children = (
+				C5431DE818EAA86A0019E61E /* SkipStep */,
+				C5431E0518EAA86A0019E61E /* SkipStepTests */,
+				C5431DDF18EAA86A0019E61E /* Frameworks */,
+				C5431DDE18EAA86A0019E61E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5431DDE18EAA86A0019E61E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5431DDD18EAA86A0019E61E /* SkipStep.app */,
+				C5431DFD18EAA86A0019E61E /* SkipStepTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5431DDF18EAA86A0019E61E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5431DE018EAA86A0019E61E /* Foundation.framework */,
+				C5431DE218EAA86A0019E61E /* CoreGraphics.framework */,
+				C5431DE418EAA86A0019E61E /* UIKit.framework */,
+				C5431DE618EAA86A0019E61E /* CoreData.framework */,
+				C5431DFE18EAA86A0019E61E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5431DE818EAA86A0019E61E /* SkipStep */ = {
+			isa = PBXGroup;
+			children = (
+				C5431DF118EAA86A0019E61E /* SkipStepAppDelegate.h */,
+				C5431DF218EAA86A0019E61E /* SkipStepAppDelegate.m */,
+				C5431DF718EAA86A0019E61E /* Images.xcassets */,
+				C5431DF418EAA86A0019E61E /* SkipStep.xcdatamodeld */,
+				C5431DE918EAA86A0019E61E /* Supporting Files */,
+			);
+			path = SkipStep;
+			sourceTree = "<group>";
+		};
+		C5431DE918EAA86A0019E61E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5431DEA18EAA86A0019E61E /* SkipStep-Info.plist */,
+				C5431DEB18EAA86A0019E61E /* InfoPlist.strings */,
+				C5431DEE18EAA86A0019E61E /* main.m */,
+				C5431DF018EAA86A0019E61E /* SkipStep-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5431E0518EAA86A0019E61E /* SkipStepTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5431E0B18EAA86A0019E61E /* SkipStepTests.m */,
+				C5431E0618EAA86A0019E61E /* Supporting Files */,
+			);
+			path = SkipStepTests;
+			sourceTree = "<group>";
+		};
+		C5431E0618EAA86A0019E61E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5431E0718EAA86A0019E61E /* SkipStepTests-Info.plist */,
+				C5431E0818EAA86A0019E61E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5431DDC18EAA86A0019E61E /* SkipStep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5431E0F18EAA86A0019E61E /* Build configuration list for PBXNativeTarget "SkipStep" */;
+			buildPhases = (
+				C5431DD918EAA86A0019E61E /* Sources */,
+				C5431DDA18EAA86A0019E61E /* Frameworks */,
+				C5431DDB18EAA86A0019E61E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkipStep;
+			productName = SkipStep;
+			productReference = C5431DDD18EAA86A0019E61E /* SkipStep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5431DFC18EAA86A0019E61E /* SkipStepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5431E1218EAA86A0019E61E /* Build configuration list for PBXNativeTarget "SkipStepTests" */;
+			buildPhases = (
+				C5431DF918EAA86A0019E61E /* Sources */,
+				C5431DFA18EAA86A0019E61E /* Frameworks */,
+				C5431DFB18EAA86A0019E61E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5431E0418EAA86A0019E61E /* PBXTargetDependency */,
+			);
+			name = SkipStepTests;
+			productName = SkipStepTests;
+			productReference = C5431DFD18EAA86A0019E61E /* SkipStepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5431DD518EAA86A0019E61E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SkipStep;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = SkipStep;
+				TargetAttributes = {
+					C5431DFC18EAA86A0019E61E = {
+						TestTargetID = C5431DDC18EAA86A0019E61E;
+					};
+				};
+			};
+			buildConfigurationList = C5431DD818EAA86A0019E61E /* Build configuration list for PBXProject "SkipStep" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C5431DD418EAA86A0019E61E;
+			productRefGroup = C5431DDE18EAA86A0019E61E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5431DDC18EAA86A0019E61E /* SkipStep */,
+				C5431DFC18EAA86A0019E61E /* SkipStepTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5431DDB18EAA86A0019E61E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5431DED18EAA86A0019E61E /* InfoPlist.strings in Resources */,
+				C5431DF818EAA86A0019E61E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5431DFB18EAA86A0019E61E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5431E0A18EAA86A0019E61E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5431DD918EAA86A0019E61E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5431DEF18EAA86A0019E61E /* main.m in Sources */,
+				C5431DF318EAA86A0019E61E /* SkipStepAppDelegate.m in Sources */,
+				C5431DF618EAA86A0019E61E /* SkipStep.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5431DF918EAA86A0019E61E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5431E0C18EAA86A0019E61E /* SkipStepTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5431E0418EAA86A0019E61E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5431DDC18EAA86A0019E61E /* SkipStep */;
+			targetProxy = C5431E0318EAA86A0019E61E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5431DEB18EAA86A0019E61E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5431DEC18EAA86A0019E61E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C5431E0818EAA86A0019E61E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5431E0918EAA86A0019E61E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5431E0D18EAA86A0019E61E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C5431E0E18EAA86A0019E61E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5431E1018EAA86A0019E61E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SkipStep/SkipStep-Prefix.pch";
+				INFOPLIST_FILE = "SkipStep/SkipStep-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C5431E1118EAA86A0019E61E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SkipStep/SkipStep-Prefix.pch";
+				INFOPLIST_FILE = "SkipStep/SkipStep-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C5431E1318EAA86A0019E61E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SkipStep.app/SkipStep";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SkipStep/SkipStep-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SkipStepTests/SkipStepTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C5431E1418EAA86A0019E61E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SkipStep.app/SkipStep";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SkipStep/SkipStep-Prefix.pch";
+				INFOPLIST_FILE = "SkipStepTests/SkipStepTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5431DD818EAA86A0019E61E /* Build configuration list for PBXProject "SkipStep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5431E0D18EAA86A0019E61E /* Debug */,
+				C5431E0E18EAA86A0019E61E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5431E0F18EAA86A0019E61E /* Build configuration list for PBXNativeTarget "SkipStep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5431E1018EAA86A0019E61E /* Debug */,
+				C5431E1118EAA86A0019E61E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5431E1218EAA86A0019E61E /* Build configuration list for PBXNativeTarget "SkipStepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5431E1318EAA86A0019E61E /* Debug */,
+				C5431E1418EAA86A0019E61E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C5431DF418EAA86A0019E61E /* SkipStep.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C5431DF518EAA86A0019E61E /* SkipStep.xcdatamodel */,
+			);
+			currentVersion = C5431DF518EAA86A0019E61E /* SkipStep.xcdatamodel */;
+			path = SkipStep.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C5431DD518EAA86A0019E61E /* Project object */;
+}

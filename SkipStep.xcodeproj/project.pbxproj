@@ -22,6 +22,9 @@
 		C5431E0218EAA86A0019E61E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5431DE618EAA86A0019E61E /* CoreData.framework */; };
 		C5431E0A18EAA86A0019E61E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5431E0818EAA86A0019E61E /* InfoPlist.strings */; };
 		C5431E0C18EAA86A0019E61E /* SkipStepTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5431E0B18EAA86A0019E61E /* SkipStepTests.m */; };
+		C5431E1618EAA91A0019E61E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5431E1518EAA91A0019E61E /* MainStoryboard.storyboard */; };
+		C5431E1C18EB43B90019E61E /* StepSequencerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5431E1B18EB43B90019E61E /* StepSequencerViewController.m */; };
+		C5431E1F18EB442C0019E61E /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5431E1E18EB442C0019E61E /* SplashViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		C5431E0718EAA86A0019E61E /* SkipStepTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SkipStepTests-Info.plist"; sourceTree = "<group>"; };
 		C5431E0918EAA86A0019E61E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C5431E0B18EAA86A0019E61E /* SkipStepTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkipStepTests.m; sourceTree = "<group>"; };
+		C5431E1518EAA91A0019E61E /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C5431E1A18EB43B90019E61E /* StepSequencerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepSequencerViewController.h; sourceTree = "<group>"; };
+		C5431E1B18EB43B90019E61E /* StepSequencerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepSequencerViewController.m; sourceTree = "<group>"; };
+		C5431E1D18EB442C0019E61E /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		C5431E1E18EB442C0019E61E /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +128,11 @@
 				C5431DF718EAA86A0019E61E /* Images.xcassets */,
 				C5431DF418EAA86A0019E61E /* SkipStep.xcdatamodeld */,
 				C5431DE918EAA86A0019E61E /* Supporting Files */,
+				C5431E1518EAA91A0019E61E /* MainStoryboard.storyboard */,
+				C5431E1D18EB442C0019E61E /* SplashViewController.h */,
+				C5431E1E18EB442C0019E61E /* SplashViewController.m */,
+				C5431E1A18EB43B90019E61E /* StepSequencerViewController.h */,
+				C5431E1B18EB43B90019E61E /* StepSequencerViewController.m */,
 			);
 			path = SkipStep;
 			sourceTree = "<group>";
@@ -231,6 +244,7 @@
 			files = (
 				C5431DED18EAA86A0019E61E /* InfoPlist.strings in Resources */,
 				C5431DF818EAA86A0019E61E /* Images.xcassets in Resources */,
+				C5431E1618EAA91A0019E61E /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5431E1F18EB442C0019E61E /* SplashViewController.m in Sources */,
 				C5431DEF18EAA86A0019E61E /* main.m in Sources */,
 				C5431DF318EAA86A0019E61E /* SkipStepAppDelegate.m in Sources */,
+				C5431E1C18EB43B90019E61E /* StepSequencerViewController.m in Sources */,
 				C5431DF618EAA86A0019E61E /* SkipStep.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,6 +466,7 @@
 				C5431E1118EAA86A0019E61E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5431E1218EAA86A0019E61E /* Build configuration list for PBXNativeTarget "SkipStepTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +475,7 @@
 				C5431E1418EAA86A0019E61E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

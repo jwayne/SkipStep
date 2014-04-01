@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="Ghp-2w-u6m">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="6Lc-iM-iWF">
+            <objects>
+                <viewController id="mog-b9-Non" customClass="SplashViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Z9V-AS-u0N"/>
+                        <viewControllerLayoutGuide type="bottom" id="skg-Bi-EMl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Dee-gI-Sci">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="SkipStep" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T9H-w0-hqy">
+                                <rect key="frame" x="168" y="410" width="432" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="432" id="Cgb-Z6-BJ5"/>
+                                    <constraint firstAttribute="height" constant="114" id="RIU-ae-fqS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="72"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Host address" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BnJ-DK-3ba">
+                                <rect key="frame" x="250" y="637" width="269" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="269" id="OU9-6X-a41"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ul8-LR-7sQ">
+                                <rect key="frame" x="355" y="698" width="59" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Step"/>
+                                <connections>
+                                    <segue destination="ZMD-kQ-pJU" kind="modal" id="wVd-sP-rVw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BnJ-DK-3ba" firstAttribute="centerX" secondItem="Ul8-LR-7sQ" secondAttribute="centerX" id="Bvc-od-iqn"/>
+                            <constraint firstItem="BnJ-DK-3ba" firstAttribute="centerX" secondItem="T9H-w0-hqy" secondAttribute="centerX" id="Egf-JY-Rx9"/>
+                            <constraint firstItem="Ul8-LR-7sQ" firstAttribute="top" secondItem="BnJ-DK-3ba" secondAttribute="bottom" constant="73" id="OiT-nU-VCK"/>
+                            <constraint firstItem="T9H-w0-hqy" firstAttribute="top" secondItem="Z9V-AS-u0N" secondAttribute="bottom" constant="390" id="Rco-pk-hgf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="PRb-c6-hyN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sbA-Rt-V2d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="901" y="-121"/>
+        </scene>
+        <!--Step Sequencer View Controller-->
+        <scene sceneID="LmM-Of-iuz">
+            <objects>
+                <viewController id="7nt-6k-YRM" customClass="StepSequencerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iHa-WV-vox"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xq7-b8-a3y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mLg-nl-gXL">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ata-ZW-owb">
+                                <rect key="frame" x="702" y="974" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Menu">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="CRo-Y6-Ije" kind="unwind" unwindAction="unwindSplash:" id="5nl-k6-L1N"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="MUh-kS-xQC"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nDY-Fj-h5y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="CRo-Y6-Ije" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2762" y="-121"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="aPB-4z-y7H">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2eo-gP-NYg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Ghp-2w-u6m" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cMf-VH-pZ3">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="mog-b9-Non" kind="relationship" relationship="rootViewController" id="LbC-ny-6DO"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-73" y="-121"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="wmR-zz-Bub">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="ZMD-kQ-pJU" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="oSi-Hx-Wjl">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7nt-6k-YRM" kind="relationship" relationship="rootViewController" id="Y5x-z8-WbJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Age-0g-eU5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1844" y="-121"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
